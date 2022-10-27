@@ -22,16 +22,17 @@
         android:title="Sobre"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mCompartilhar"
         android:icon="@drawable/ic_baseline_share"
         android:title="Compartilhar"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/mBuscar"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Buscar"
-        app:showAsAction="ifRoom" />
+
 
 
     />
