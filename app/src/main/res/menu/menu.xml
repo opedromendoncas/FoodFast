@@ -14,7 +14,7 @@
     <item
         android:id="@+id/mHistorico"
         android:icon="@drawable/ic_baseline_history"
-        android:title="Historico"
+        android:title="Histórico"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mSobre"
