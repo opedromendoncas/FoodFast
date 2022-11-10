@@ -13,10 +13,16 @@
         android:theme="@style/Theme.FoodFast"
         tools:targetApi="31">
         <activity
+            android:name=".MenuBottonNavActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MenuAppBarBottom_Activity"
             android:exported="true"
             android:theme="@style/TemaSemBarra">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +37,6 @@
             android:name=".MenuAppBarTop_Activity"
             android:exported="true"
             android:theme="@style/TemaSemBarra">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,8 +50,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
