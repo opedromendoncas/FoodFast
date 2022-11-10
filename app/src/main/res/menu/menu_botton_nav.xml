@@ -17,7 +17,7 @@
         android:title="Places" />
 
     <item
-        android:id="@+id/mNewsPaper"
+        android:id="@+id/mNews"
         android:icon="@drawable/ic_baseline_newspaper"
         android:title="News" />
 
