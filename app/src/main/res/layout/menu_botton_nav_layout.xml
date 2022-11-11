@@ -4,13 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MenuBottonNavActivity">
 
+    <FrameLayout
+        android:id="@+id/idContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/idBottomNav"
+        android:background="@drawable/logo" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNav"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        style="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface"
         app:menu="@menu/menu_botton_nav" />
 
 </RelativeLayout>
